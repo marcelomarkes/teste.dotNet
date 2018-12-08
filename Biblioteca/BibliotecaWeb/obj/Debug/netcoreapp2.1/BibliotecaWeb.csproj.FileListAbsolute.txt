@@ -1,0 +1,14 @@
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\bin\Debug\netcoreapp2.1\BibliotecaWeb.deps.json
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\bin\Debug\netcoreapp2.1\BibliotecaWeb.runtimeconfig.json
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\bin\Debug\netcoreapp2.1\BibliotecaWeb.runtimeconfig.dev.json
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\bin\Debug\netcoreapp2.1\BibliotecaWeb.dll
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\bin\Debug\netcoreapp2.1\BibliotecaWeb.pdb
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.1\BibliotecaWeb.csprojAssemblyReference.cache
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.1\BibliotecaWeb.csproj.CoreCompileInputs.cache
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.1\BibliotecaWeb.RazorAssemblyInfo.cache
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.1\BibliotecaWeb.RazorAssemblyInfo.cs
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.1\BibliotecaWeb.AssemblyInfoInputs.cache
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.1\BibliotecaWeb.AssemblyInfo.cs
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.1\BibliotecaWeb.RazorTargetAssemblyInfo.cache
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.1\BibliotecaWeb.dll
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.1\BibliotecaWeb.pdb
