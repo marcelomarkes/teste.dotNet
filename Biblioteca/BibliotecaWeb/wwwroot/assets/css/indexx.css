@@ -1,0 +1,18 @@
+body {
+  background: #fff;
+}
+
+.txt {
+  position: absolute;
+  left: 667px;
+  top: calc(45% + 80px);
+  left: calc(50% - 155px);
+  margin: 0 auto;
+}
+
+.imgcar{
+  position: absolute;
+  top: calc(45% - 90px);
+  left: calc(50% - 130px);
+  margin: 0 auto;		
+}

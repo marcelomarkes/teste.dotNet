@@ -1,0 +1,99 @@
+#holeimg {  
+    position: relative;
+    width: 503px;
+	height: 645px;
+	font-family: "Arial";
+	font-size: 11px;
+}
+.datref{
+  position:	absolute;
+  right:	38px;
+  top:		15px;
+}
+.nomemp {
+  position:	absolute;
+  left:		11px;
+   top:		37px;  
+}
+.nomloc{
+  position:	absolute; 
+  right:	80px;
+    top:	37px;
+}
+.numcad {
+  position:	absolute;
+  left:		11px;
+   top:		63px;  
+}
+.nomcol {
+  position:	absolute;
+  left:		73px;
+   top:		63px;  
+}
+.datadm {
+  position:	absolute;
+  right:	71px;
+   top:		63px;  
+}
+.descar {
+  position:	absolute;
+  left:	    11px;
+   top:	    91px;  
+}
+.desban {
+  position:	absolute;
+  left:	    183px;
+   top:	    91px;  
+}
+.conban {
+  position:	absolute;
+  right:	144px;
+   top:	    91px;  
+}
+.digban {
+  position:	absolute;
+  right:	42px;
+   top:	    91px;  
+}
+.bassal {
+  position:	absolute;
+  left: 45px;
+  top:	603px;  
+}
+.totvenc {
+  position:	absolute;
+  left: 348px;
+  top:	602px;  
+}
+
+.valliq{
+  position:	absolute;
+  left: 448px;
+  top:	627px;  
+}
+
+.totdesc {
+  position:	absolute;
+  left: 448px;
+  top:	601px;  
+}
+
+.rvalli{
+  position:	absolute;
+  left: 372px;
+  top:	583px; 
+  font-size: 12px;  
+}
+.rncol{
+  position:	absolute;
+  right: 10px;
+  top:	625px; 
+  font-size: 12px;  
+}
+
+.ffrase{
+  position:	absolute;  
+  left: 10px;
+  top:	625px; 
+  font-size: 12px;      
+}
