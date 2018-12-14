@@ -27,5 +27,6 @@
     <PkgMicrosoft_AspNetCore_Razor_Design Condition=" '$(PkgMicrosoft_AspNetCore_Razor_Design)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.razor.design\2.1.2</PkgMicrosoft_AspNetCore_Razor_Design>
     <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\marce\.nuget\packages\jquery\1.9.1</PkgjQuery>
     <PkgEntityFramework_SqlServerCompact Condition=" '$(PkgEntityFramework_SqlServerCompact)' == '' ">C:\Users\marce\.nuget\packages\entityframework.sqlservercompact\6.2.0</PkgEntityFramework_SqlServerCompact>
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\marce\.nuget\packages\entityframework\6.2.0</PkgEntityFramework>
   </PropertyGroup>
 </Project>

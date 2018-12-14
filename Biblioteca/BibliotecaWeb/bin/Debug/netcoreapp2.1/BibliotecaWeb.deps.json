@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "7e9bfecd8f03799c846bcfbce9ad604208c4d273"
+    "signature": "f56849a4c722d22727dc5dc89945580162167dbf"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
       "BibliotecaWeb/1.0.0": {
         "dependencies": {
           "AngularJS.Core": "1.7.5",
+          "EntityFramework": "6.2.0",
           "EntityFramework.SqlServerCompact": "6.2.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -43,6 +44,22 @@
       "bootstrap/3.3.7": {
         "dependencies": {
           "jQuery": "1.9.1"
+        }
+      },
+      "EntityFramework/6.2.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          }
+        },
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         }
       },
       "EntityFramework.SqlServerCompact/6.2.0": {
@@ -3496,6 +3513,13 @@
       "sha512": "sha512-PNIcKP1/78dJ43f4LsrhBS2iaUq1hgg9+3oRKfOcTLw+3AgK14i/QRdHMoE8AN9e/pgpBuKgsbf47aU+RLLZJQ==",
       "path": "bootstrap/3.3.7",
       "hashPath": "bootstrap.3.3.7.nupkg.sha512"
+    },
+    "EntityFramework/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7u/Xw6dnODaoB8opNC/Uz8nT/LKOxsvJhObYU+m0CErCXdOsyTC1MZwqQoam8lMehLTxBoMBewvWoOQUBaUKsQ==",
+      "path": "entityframework/6.2.0",
+      "hashPath": "entityframework.6.2.0.nupkg.sha512"
     },
     "EntityFramework.SqlServerCompact/6.2.0": {
       "type": "package",
