@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2fc82b9c4b1c479db85e3be16d28c4df" Name="Diagram1">
+        <EntityTypeShape EntityType="db_bibliotecaModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_bibliotecaModel.tb_autor" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_bibliotecaModel.tb_categoria" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_bibliotecaModel.tb_editora" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_bibliotecaModel.tb_usuario" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_bibliotecaModel.tb_livro" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="db_bibliotecaModel.FK__tb_autor__us_cod__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="db_bibliotecaModel.FK__tb_livro__au_cod__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="db_bibliotecaModel.FK__tb_catego__us_co__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="db_bibliotecaModel.FK__tb_livro__ct_cod__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="db_bibliotecaModel.FK__tb_editor__us_co__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="db_bibliotecaModel.FK__tb_livro__ed_cod__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="db_bibliotecaModel.FK__tb_livro__us_cod__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="db_bibliotecaModel.FK__tb_livro__us_cod__44FF419A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

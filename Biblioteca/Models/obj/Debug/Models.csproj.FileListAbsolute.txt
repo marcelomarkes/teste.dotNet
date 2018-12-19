@@ -1,0 +1,1 @@
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache

@@ -1,26 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
-    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Utils\Validar.ts" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AngularJS.Core" Version="1.7.5" />
-    <PackageReference Include="bootstrap" Version="3.3.7" />
-    <PackageReference Include="EntityFramework" Version="6.2.0" />
-    <PackageReference Include="EntityFramework.SqlServerCompact" Version="6.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="Utils\Validar.ts" />
+    <ProjectReference Include="..\Models\Models.csproj" />
   </ItemGroup>
 
 </Project>

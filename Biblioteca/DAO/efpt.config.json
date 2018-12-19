@@ -1,0 +1,1 @@
+﻿{"ContextClassName":"Db_BibliotecaContext","DefaultDacpacSchema":null,"IdReplace":false,"IncludeConnectionString":true,"OutputPath":"","ProjectRootNamespace":"DAO","SelectedToBeGenerated":0,"Tables":["dbo.sysdiagrams","dbo.tb_autor","dbo.tb_categoria","dbo.tb_editora","dbo.tb_usuario"],"UseDatabaseNames":false,"UseFluentApiOnly":true,"UseHandleBars":false,"UseInflector":false}

@@ -1,0 +1,4 @@
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.0\BibliotecaWeb.csprojAssemblyReference.cache
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.0\BibliotecaWeb.csproj.CoreCompileInputs.cache
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.0\BibliotecaWeb.AssemblyInfoInputs.cache
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\BibliotecaWeb\obj\Debug\netcoreapp2.0\BibliotecaWeb.AssemblyInfo.cs

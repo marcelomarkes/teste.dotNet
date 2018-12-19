@@ -1,0 +1,2 @@
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\marce\Documents\GitHub\teste.dotNet\Biblioteca\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache

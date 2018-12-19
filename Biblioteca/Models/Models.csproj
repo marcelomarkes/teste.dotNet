@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F282DB5-0CF9-41BB-A8C7-B37D5A95BD33}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Models</RootNamespace>
+    <AssemblyName>Models</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutorModel.cs" />
+    <Compile Include="CategoriaModel.cs" />
+    <Compile Include="EditoraModel.cs" />
+    <Compile Include="ModelBiblioteca.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelBiblioteca.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelBiblioteca.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelBiblioteca.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelBiblioteca.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SP_CONSULTA_AUTOR_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_CONSULTA_CATEGORIA_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_CONSULTA_EDITORA_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_CONSULTA_LIVRO_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_CONSULTA_USUARIO_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_MOSTRAR_AUTOR_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_MOSTRAR_CATEGORIA_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_MOSTRAR_EDITORA_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_MOSTRAR_LIVRO_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_MOSTRAR_USUARIO_Result.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_autor.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_categoria.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_editora.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_livro.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_usuario.cs">
+      <DependentUpon>ModelBiblioteca.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{6f6c3a4c-4faa-48d7-814b-975394548d4c}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="ModelBiblioteca.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelBiblioteca.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="ModelBiblioteca.edmx.diagram">
+      <DependentUpon>ModelBiblioteca.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModelBiblioteca.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelBiblioteca.Context.cs</LastGenOutput>
+      <DependentUpon>ModelBiblioteca.edmx</DependentUpon>
+    </Content>
+    <Content Include="ModelBiblioteca.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelBiblioteca.edmx</DependentUpon>
+      <LastGenOutput>ModelBiblioteca.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
